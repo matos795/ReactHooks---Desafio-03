@@ -1,0 +1,32 @@
+.rh-form-container {
+    background-color: var(--bg-forms-color);
+    border-radius: 16px;
+    padding: 54px 30px;
+}
+
+.rh-form-container h2 {
+    color: var(--font-forms-color);
+    font-size: 38px;
+    font-weight: 500;
+    padding: 4px 0 16px;
+}
+
+.rh-form-container input {
+    padding: 0 17px;
+    font-size: 16px;
+    color: var(--font-input-forms-color);
+    font-weight: 400;
+    border: 1px solid var(--border-input-forms-color);
+    border-radius: 4px;
+    height: 40px;
+    width: 298px;
+}
+
+.rh-form-container input::placeholder {
+    color: var(--font-input-forms-placeholder-color);
+    font-weight: 400;
+}
+
+.rh-form-container input:focus {
+    outline: none;
+}

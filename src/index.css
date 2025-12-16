@@ -10,8 +10,9 @@
 
   --bg-forms-color: #E6F7FF;
   --border-input-forms-color: #BFBFBF;
-  --font-input-forms-color: #BFBFBF;
-  --font-forms-color: #000000;
+  --font-input-forms-placeholder-color: #BFBFBF;
+  --font-input-forms-color: #5C5858;
+  --font-forms-color: #262626;
 
   --bg-user-color: #F5F5F5;
   --font-primary-user-color: #1890FF;
@@ -41,7 +42,7 @@ html, body {
 .rh-container {
     width: 100%;
     max-width: 1251px;
-    margin: 0 auto;
+    margin: 60px auto;
 }
 
 main {
@@ -50,4 +51,8 @@ main {
 
 .rh-mb30 {
   margin-bottom: 30px;
+}
+
+.rh-mt30 {
+  margin-top: 30px;
 }

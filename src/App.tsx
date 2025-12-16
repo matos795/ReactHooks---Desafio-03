@@ -1,6 +1,7 @@
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
 import Home from './routes/Home'
 import HomeIndex from './routes/Home/HomeIndex'
+import UsersIndex from './routes/Home/UsersIndex'
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
           <Route path='/' element={<Home />}>
             <Route index element={<Navigate to='/home' />} />
             <Route path='/home' element={<HomeIndex />} />
+            <Route path='/users' element={<UsersIndex />} />
           </Route>
         </Routes>
       </BrowserRouter>
