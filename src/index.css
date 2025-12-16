@@ -2,8 +2,11 @@
 
 :root {
 
-  --bg-header-collor: #1890FF;
-  --font-header-collor: #FFFFFF;
+  --bg-header-color: #1890FF;
+  --font-header-color: #FFFFFF;
+
+  --bg-btn-color: #1890FF;
+  --font-btn-color: #FFFFFF;
 
   --bg-forms-color: #E6F7FF;
   --border-input-forms-color: #BFBFBF;
@@ -35,12 +38,16 @@ html, body {
     background-color: var(--bg-primary-color);
 }
 
-.rt-container {
+.rh-container {
     width: 100%;
     max-width: 1251px;
     margin: 0 auto;
 }
 
 main {
-    padding: 0 20px;
+    padding: 0 40px;
+}
+
+.rh-mb30 {
+  margin-bottom: 30px;
 }
