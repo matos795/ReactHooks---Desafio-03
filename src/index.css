@@ -15,10 +15,12 @@
   --font-forms-color: #262626;
 
   --bg-user-color: #F5F5F5;
+  --bg-user-data-color: #FFFFFF;
+  --border-user-data-color: #D9D9D9;
   --font-primary-user-color: #1890FF;
   --font-secundary-user-color: #737373;
 
-  --bg-primary-color: #F7F9FA;
+  --bg-primary-color: #ffffff;
   --font-primary-color: #000000;
   --font-secundary-color: #7E7E7E;
 }
@@ -31,7 +33,7 @@
 }
 
 a, a:hover {
-    color: unset;
+  color: blue;
     text-decoration: none;
 }
 
